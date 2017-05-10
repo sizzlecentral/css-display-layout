@@ -78,25 +78,10 @@ img {
 }
 
 .photo-card {
-  width: 32%;
-}
-
-.photo-card:first-child {
+  width: 33.33%;
   float: left;
+  padding: 2px;
 }
-
-.photo-card:nth-child(2) {
-  float: left;
-}
-
-.photo-card:nth-child(5) {
-  float: right;
-}
-
-.photo-card:last-child {
-  float: right;
-}
-
 
 .edit-bar {
   width: 100%;
@@ -105,5 +90,15 @@ img {
   font-family: Helvetica, Arial, sans-serif;
   padding: 7px;
   text-align: center;
-  margin: 1px 0 20px 0;
+  margin: 0 0 20px 0;
+}
+
+footer {
+  width: 100%;
+  max-width: 800px;
+  margin: 10px 10px 20px 10px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
