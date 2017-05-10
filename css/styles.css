@@ -17,6 +17,10 @@ h1 {
   padding: 10px;
 }
 
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 header {
   background-color: black;
   margin: 20px 10px 0 10px;
@@ -60,7 +64,7 @@ nav li a:hover {
   background-color: #8dfdd2;
 }
 
-h2 {
+.photo-count-text {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 500;
@@ -70,7 +74,7 @@ h2 {
 
 .photo-row {
   width: 100%;
-  margin: 13px auto;
+  margin: 10px auto;
 }
 
 img {
@@ -96,9 +100,15 @@ img {
 footer {
   width: 100%;
   max-width: 800px;
-  margin: 10px 10px 20px 10px;
+  margin: 0 10px 20px 10px;
   background-color: black;
   color: white;
-  padding: 20px;
+  padding: 18px;
   text-align: center;
+}
+
+strong {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #fed400;
 }
